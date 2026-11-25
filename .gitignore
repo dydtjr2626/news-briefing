@@ -1,0 +1,6 @@
+data/
+site/
+__pycache__/
+*.exe
+*.pyc
+.claude/settings.local.json

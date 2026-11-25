@@ -1,0 +1,194 @@
+{
+  "window_hours": 48,
+  "per_category": {
+    "foreign": 2,
+    "domestic": 3
+  },
+  "categories": {
+    "economy": {
+      "label": "경제",
+      "foreign": [
+        {
+          "outlet": "BBC Business",
+          "url": "http://feeds.bbci.co.uk/news/business/rss.xml"
+        },
+        {
+          "outlet": "NPR Economy",
+          "url": "https://feeds.npr.org/1017/rss.xml"
+        }
+      ],
+      "domestic": [
+        {
+          "outlet": "연합뉴스 경제",
+          "url": "https://www.yna.co.kr/rss/economy.xml"
+        },
+        {
+          "outlet": "한국경제 경제",
+          "url": "https://www.hankyung.com/feed/economy"
+        },
+        {
+          "outlet": "연합뉴스 산업",
+          "url": "https://www.yna.co.kr/rss/industry.xml"
+        }
+      ]
+    },
+    "politics": {
+      "label": "정치",
+      "foreign": [
+        {
+          "outlet": "NPR Politics",
+          "url": "https://feeds.npr.org/1014/rss.xml"
+        }
+      ],
+      "domestic": [
+        {
+          "outlet": "연합뉴스 정치",
+          "url": "https://www.yna.co.kr/rss/politics.xml"
+        },
+        {
+          "outlet": "한국경제 정치",
+          "url": "https://www.hankyung.com/feed/politics"
+        }
+      ]
+    },
+    "ai": {
+      "label": "AI 기술",
+      "foreign": [
+        {
+          "outlet": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/feed/"
+        },
+        {
+          "outlet": "The Verge AI",
+          "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      ],
+      "domestic": [
+        {
+          "outlet": "ZDNet Korea",
+          "url": "https://feeds.feedburner.com/zdkorea"
+        }
+      ]
+    },
+    "semiconductor": {
+      "label": "반도체",
+      "foreign": [
+        {
+          "outlet": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/feeds/topic/semiconductors.rss",
+          "window_hours": 168
+        },
+        {
+          "outlet": "EE Times",
+          "url": "https://www.eetimes.com/feed/"
+        },
+        {
+          "outlet": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/feeds/all",
+          "keywords": [
+            "semiconductor",
+            "chip",
+            "chips",
+            "TSMC",
+            "Nvidia",
+            "Intel",
+            "AMD",
+            "Samsung",
+            "SK hynix",
+            "Micron",
+            "HBM",
+            "DRAM",
+            "NAND",
+            "foundry",
+            "wafer",
+            "fab",
+            "memory",
+            "ASML",
+            "Qualcomm",
+            "Broadcom",
+            "GPU",
+            "packaging",
+            "export control"
+          ]
+        },
+        {
+          "outlet": "The Register",
+          "url": "https://www.theregister.com/headlines.rss",
+          "keywords": [
+            "semiconductor",
+            "chip",
+            "chips",
+            "TSMC",
+            "Nvidia",
+            "Intel",
+            "AMD",
+            "Samsung",
+            "SK hynix",
+            "Micron",
+            "HBM",
+            "DRAM",
+            "NAND",
+            "foundry",
+            "wafer",
+            "fab",
+            "memory",
+            "ASML",
+            "Qualcomm",
+            "Broadcom",
+            "GPU",
+            "packaging",
+            "export control"
+          ]
+        }
+      ],
+      "domestic": [
+        {
+          "outlet": "전자신문",
+          "url": "https://rss.etnews.com/Section901.xml",
+          "keywords": [
+            "반도체",
+            "메모리",
+            "HBM",
+            "D램",
+            "낸드",
+            "파운드리",
+            "웨이퍼",
+            "하이닉스",
+            "삼성전자",
+            "TSMC",
+            "엔비디아",
+            "인텔",
+            "마이크론",
+            "퀄컴",
+            "팹",
+            "패키징",
+            "칩",
+            "AI 가속기"
+          ]
+        },
+        {
+          "outlet": "연합뉴스 산업",
+          "url": "https://www.yna.co.kr/rss/industry.xml",
+          "keywords": [
+            "반도체",
+            "메모리",
+            "HBM",
+            "D램",
+            "낸드",
+            "파운드리",
+            "웨이퍼",
+            "하이닉스",
+            "TSMC",
+            "엔비디아",
+            "인텔",
+            "마이크론",
+            "퀄컴",
+            "팹",
+            "패키징",
+            "칩"
+          ]
+        }
+      ]
+    }
+  }
+}
